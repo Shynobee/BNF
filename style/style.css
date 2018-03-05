@@ -1,0 +1,986 @@
+/* partie walid */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #815410;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav2 > ul > li {
+    margin-left: 70px;
+}
+
+.nav1 {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.nav1 > ul > li {
+    align-self: baseline;
+}
+
+.nav2 > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header > .ban {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav3 {
+    display: flex;
+    position: fixed;
+    margin-top: 30px;
+    flex-grow: 1;
+    z-index: 5;
+}
+
+.nav3 > ul{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    /*align-items: center;*/
+}
+
+.nav3 > ul > li {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.arts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-grow: 1;
+}
+
+.titlemain {
+    flex-grow: 1;
+    position: fixed;
+    left: 170px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 4em;
+    color: #f1f1f1;
+    z-index: -50;
+}
+
+.main {
+    flex-grow: 2;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.sideart {
+    flex-grow: 2;
+    position: absolute;
+    top: 200px;
+    left: 980px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.art1 {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 150px;
+    left: 420px;
+}
+
+.links {
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 550px;
+    left: 170px;
+    width: 75%;
+    height: 230px;
+    flex-direction: column;
+    background-color: #e8dec9;
+}
+
+.maintext {
+    position: relative;
+    top: -15px;
+    margin-top: 10px;
+    width: 70%;
+    height: 100px;
+    background-color: #f2f2f2;
+    text-align: left;
+    text-indent: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.maintext > h4 {
+    margin: auto;
+}
+
+.botside {
+    position: relative;
+    top: 40px;
+}
+
+.inlink {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.line1, .line2, .line3 {
+    margin-bottom: 10px;
+}
+
+i, hr, h4 {
+    color: #815410;
+}
+
+.navlog {
+    width: 10%;
+    float: right;
+}
+
+.com {
+    position: fixed;
+    top: 500px;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.imgbi {
+    position: absolute;
+    top: 80px;
+    right: 770px;
+    z-index: -20;
+    width: 24em;   
+    margin-bottom: 50px;
+}
+
+/* fin partie walid */
+
+.container {
+    display: flex;
+    position: relative;
+    top: 700px;
+    flex-direction: column;
+}
+
+.secagenda {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.secagenda > * {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div.picture {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description:nth-child(1) {
+    position: relative;
+    left: 100px;
+}
+
+.description > li > a > img {
+    width: 80%
+}
+
+.float-link {
+    position: relative;
+    top: 50px;
+    left: 1120px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title {
+    position: relative;
+    left: 100px;
+}
+
+.linkie {
+    position: relative;
+    left: 100px;
+}
+
+.linkie > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.one {
+    position: absolute;
+    top: 48px;
+    left: 200px;
+    color: black;
+    cursor: pointer;
+}
+
+.two {
+    position: absolute;
+    top: 48px;
+    left: 220px;
+    color: black;
+    cursor: pointer;
+}
+
+.secvisites {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.secvisites > * {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div.picture2 {
+    display: flex;
+}
+
+.description-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-2:nth-child(1) {
+    position: relative;
+    left: 100px;
+}
+
+.description-2 > li > a > img {
+    width: 80%
+}
+
+.float-link-2 {
+    position: relative;
+    top: 50px;
+    left: 1000px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title2 {
+    position: relative;
+    left: 100px;
+}
+
+.linkie2 {
+    position: relative;
+    left: 100px;
+}
+
+.linkie2 > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.one1 {
+    position: absolute;
+    top: 612px;
+    left: 310px;
+    color: black;
+    cursor: pointer;
+}
+
+.two2 {
+    position: absolute;
+    top: 612px;
+    left: 330px;
+    color: black;
+    cursor: pointer;
+}
+
+.section-color {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8dec9;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section-color > * {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div.video {
+    display: flex;
+}
+
+.description-3 {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-3 > li {
+    margin-right: 50px;
+}
+
+.description-3:nth-child(1) {
+    position: relative;
+    left: 100px;
+}
+
+.float-link3 {
+    position: relative;
+    top: 50px;
+    left: 1080px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title3 {
+    position: relative;
+    left: 100px;
+}
+
+.section-color-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section-color-2 > * {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.float-link3 {
+    position: relative;
+    top: 50px;
+    left: 1080px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title3 {
+    position: relative;
+    left: 100px;
+}
+
+.citation {
+    position: relative;
+    top: 100px;
+    font-size: 2em
+}
+
+.auteur {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.sand {
+    text-decoration: underline;
+}
+
+.one3 {
+    position: absolute;
+    top: 65px;
+    left: 1100px;
+    color: black;
+    cursor: pointer;
+}
+
+.two3 {
+    position: absolute;
+    top: 65px;
+    left: 1150px;
+    color: black;
+    cursor: pointer;
+}
+
+.cheat {
+    position: absolute;
+    top: 1434px;
+    left: 1250px;
+    z-index: 5;
+}
+
+.cheat > img {
+    width: 100%
+}
+
+.poster {
+    display: flex;
+    background-color:white;
+    background-image:url(assets/affiche.jpg);
+    background-repeat:no-repeat;
+    position: relative;
+    top: 800px;
+}
+
+.postext {
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 125px;
+    z-index: 40;
+    width: 350px;
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.postext > h4 {
+    margin-bottom: 50px;
+}
+
+.postext > h3 {
+    margin-bottom: 20px;
+}
+
+.arr1 {
+    position: absolute;
+    top: 180px;
+    left: 1200px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    z-index: 40;
+}
+
+.arr1 > i {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: black;
+    font-size: 17px;
+}
+
+.arr2 {
+    position: absolute;
+    top: 180px;
+    left: 1170px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    z-index: 40;
+}
+
+.arr2 > i {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: black;
+    font-size: 17px;
+}
+
+section.res {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 900px;
+    left: 0;
+}
+
+.restitle {
+    flex-direction: row
+}
+
+h2.res {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+a.res {
+    position: relative;
+    top: 40px;
+    left: 1100px;
+}
+
+.reslink {
+    flex-direction: row;
+}
+
+.reslink > ul {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.resbox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 150px;
+    top: 70px;
+}
+
+.resbox1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 60%;
+}
+
+.resbox2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 60%
+}
+
+.resbox3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.resbox4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.reselem {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 250px;
+    background-color: #e8dec9;
+}
+
+.resend {
+    position: relative;
+    right: 800px;
+    top: 500px;
+}
+
+.resend > .text {
+    position: absolute;
+    width: 450px;
+    right: 0px;
+    bottom: 200px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.resend > .imgbox {
+    position: relative;
+    right: 800px;
+    background-color: red;
+    width: 250px;
+    height: 150px;
+}
+
+.date {
+    position: absolute;
+    top: 1020px;
+    left: 600px;
+    display: flex;
+}
+
+.date > ul  {
+    display: inline-flex;
+}
+
+.date > ul > li {
+    margin: 25px;
+    text-align: center;
+}
+
+.date > ul > li:nth-last-of-type() {
+    position: relative;
+    top: 20px;
+}
+
+.separa {
+    height: 120px;
+    position: absolute;
+    top: 40px;
+}
+
+.reselem > a > img {
+    max-width: 250px;
+}
+
+.cadre {
+    position: absolute;
+    top: 1020px;
+    left: 600px;
+    width: 35%;
+}
+
+.reselem > a > p {
+    margin-bottom: 10px;
+}
+
+.arr3 {
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+}
+
+.arr3 > i {
+    color: black;
+    font-size: 25px;
+}
+
+.arr4 {
+    position: absolute;
+    top: 1200px;
+    left: 960px;
+}
+
+.arr4 > i {
+    color: black;
+    font-size: 25px;
+}
+
+.faicon1 {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon2 {
+    position: absolute;
+    top: 340px;
+    right: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon3 {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon4 {
+    position: absolute;
+    top: 390px;
+    right: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon5 {
+    position: absolute;
+    top: 20px;
+    right: 590px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon6 {
+    position: absolute;
+    top: 260px;
+    right: 590px;
+    color: white;
+    font-size: 25px;
+}
+
+.faicon7 {
+    position: absolute;
+    top: 20px;
+    right: 330px;
+    color: darkslategray;
+    font-size: 25px;
+}
+
+.faicon8 {
+    position: absolute;
+    top: 420px;
+    right: 330px;
+    color: white;
+    font-size: 25px;
+}
+
+.fa-calendar-alt {
+    font-size: 30px;
+}
+
+.fa-info-circle {
+    font-size: 30px;
+}
+
+.fa-heart {
+    font-size: 30px;
+}
+
+.fa-envelope {
+    font-size: 30px;
+}
+
+.fa-comments {
+    font-size: 30px;
+}
+
+.fa-comment-alt {
+    font-size: 30px;
+}
+
+.loupesearch {
+    position: absolute;
+    right: 210px;
+    top: 26px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 1500px;
+    background-color: #252525;
+    flex-direction: column;
+}
+
+footer > * {
+    color: white;
+    text-align: center;
+}
+
+div.btn {
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+
+.btn > button {
+    background-color: white; 
+    border: none;
+    color: #815410;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 50px;
+    height: 70px;
+    width: 240px;
+    text-align: left;
+}
+
+.titlefoot {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.footlist {
+    margin-bottom: 20px;
+}
+
+.un {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.deux {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.footlist2 {
+    margin-right: 560px;
+}
+
+.footlist2 > ul > li {
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+.footlink {
+    position: absolute;
+    left: 705px;
+    width: 250px;
+}
+
+.okbtn {
+    position: absolute;
+    right: 390px;
+    bottom: 797px;
+    color: black;
+    font-size: 25;
+    background-color: white;
+    cursor: pointer;
+}
+
+.footer1 {
+    width: 500px;
+    color: darkslategray;
+    margin-top: 30px;
+    position: absolute;
+    top: 270px;
+    left: 440px;
+}
+
+.footmobile {
+    position: relative;
+    top: 100px;
+}
+
+.gauche {
+    background-color: white;
+    color: black;
+    width: 35%;
+    position: relative;
+    left: 180px;
+    height: 200px;
+}
+
+.fa-mobile-alt {
+    color: black;
+    font-size: 100px;
+    position: relative;
+    top: 20px;
+    right: 180px;
+}
+
+.gaucheint {
+    width: 60%;
+    position: relative;
+    left: 155px;
+    bottom: 80px;
+    text-align: left;
+}
+
+.gaucheint > ul > li > i {
+    color: black;
+}
+
+.droite {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 35%;
+    height: 200px;
+    color: black;
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+    text-align: center;
+}
+
+.droite > div > ul > li{
+    display: block;
+    margin: 20px;
+}
+
+.droiteun {
+    position: relative;
+    top: 25px;
+    font-size: 35px;
+    left: 15px;
+}
+
+.droiteun > ul > li > i {
+    color: black;
+}
+
+.droite2 {
+    position: relative;
+    top: 30px;
+}
+
+.seplist {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    color: darkslategray;
+}
+
+.droite3 {
+    position: relative;
+    top: 25px;
+    font-size: 35px;
+    left: 15px;
+}
+
+.droite3 > ul > li > i {
+    color: black;
+}
+
+.droite4 {
+    position: relative;
+    top: 30px;
+}
+
+.footer2 {
+    width: 40%;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+    color: darkslategray;
+}
+
